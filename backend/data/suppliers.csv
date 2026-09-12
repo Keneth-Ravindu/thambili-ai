@@ -1,0 +1,91 @@
+supplier_id,registered_name,trading_name,category,address,city,phone,email,vat_number,payment_terms,currency
+SUP-001,Ceylon Fresh Produce (Pvt) Ltd,Ceylon Fresh Produce,Vegetables,345 Station Road,Dambulla,033 468 7334,accounts@ceylonfreshpro.lk,137974110-7000,30 days,LKR
+SUP-002,Nuwara Highland Vegetables (Pvt) Ltd,Highland Veg,Vegetables,380 Galle Road,Nuwara Eliya,011 412 4456,accounts@highlandveg.lk,162920592-7000,14 days,LKR
+SUP-003,Green Acre Agro Exports (Pvt) Ltd,Green Acre,Fruit,188 Main Street,Kegalle,081 275 4127,accounts@greenacre.lk,152531816-7000,30 days,LKR
+SUP-004,Negombo Bay Seafoods (Pvt) Ltd,Negombo Bay Seafoods,Fish & Seafood,125 Church Street,Negombo,063 308 5272,accounts@negombobayseaf.lk,167963467-7000,7 days,LKR
+SUP-005,Chilaw Fisheries Company Limited,Chilaw Fisheries,Fish & Seafood,353 Negombo Road,Chilaw,065 757 2616,accounts@chilawfisherie.lk,124669184-7000,14 days,LKR
+SUP-006,Prima Meats & Poultry (Pvt) Ltd,Prima Meats,Meat & Poultry,426 Negombo Road,Ja-Ela,041 445 6944,accounts@primameats.lk,121535984-7000,30 days,LKR
+SUP-007,Crescent Halal Foods (Pvt) Ltd,Crescent Halal,Meat & Poultry,41 Kandy Road,Colombo 12,091 652 7271,accounts@crescenthalal.lk,118314315-7000,30 days,LKR
+SUP-008,Lanka Dairy Products (Pvt) Ltd,Lanka Dairy Products,Dairy,96 Old Moor Street,Kurunegala,011 311 5158,accounts@lankadairyprod.lk,131485020-7000,30 days,LKR
+SUP-009,Lanka Dairies Limited,Lanka Dairies,Dairy,378 Galle Road,Colombo 15,063 740 4447,accounts@lankadairies.lk,176390081-7000,45 days,LKR
+SUP-010,Serendib Creamery (Pvt) Ltd,Serendib Creamery,Dairy,325 Temple Road,Gampaha,063 234 5246,accounts@serendibcreame.lk,102741909-7000,30 days,LKR
+SUP-011,Kandy Provision Stores (Pvt) Ltd,Kandy Provisions,Dry Goods,207 Kandy Road,Kandy,033 462 2679,accounts@kandyprovision.lk,134455257-7000,30 days,LKR
+SUP-012,Ruhunu Rice & Grain Traders,Ruhunu Traders,Dry Goods,132 Galle Road,Matara,041 382 4825,accounts@ruhunutraders.lk,138293955-7000,21 days,LKR
+SUP-013,Orient Spice Millers (Pvt) Ltd,Orient Spice,Spices,194 Church Street,Colombo 13,033 335 3357,accounts@orientspice.lk,151382125-7000,30 days,LKR
+SUP-014,Silverline Oils & Fats (Pvt) Ltd,Silverline Oils,Cooking Oil,290 Old Moor Street,Wattala,063 276 8332,accounts@silverlineoils.lk,167334953-7000,30 days,LKR
+SUP-015,Island Beverage Distributors (Pvt) Ltd,IBD Sri Lanka,Beverages,345 Main Street,Colombo 14,037 734 4526,accounts@ibdsrilanka.lk,168966491-7000,30 days,LKR
+SUP-016,Highgrown Tea Company (Pvt) Ltd,Highgrown Tea,Beverages,336 Temple Road,Hatton,063 282 4396,accounts@highgrowntea.lk,104735001-7000,45 days,LKR
+SUP-017,Aqua Pure Bottlers (Pvt) Ltd,Aqua Pure,Beverages,291 New Bazaar Street,Kaduwela,065 218 2102,accounts@aquapure.lk,159830858-7000,14 days,LKR
+SUP-018,Litro Gas Lanka Distributors (Pvt) Ltd,Litro Distributors,LP Gas,143 Galle Road,Kelaniya,034 492 2470,accounts@litrodistribut.lk,165746633-7000,7 days,LKR
+SUP-019,Metro Packaging Solutions (Pvt) Ltd,Metro Packaging,Packaging,346 Station Road,Peliyagoda,011 639 5194,accounts@metropackaging.lk,130924536-7000,30 days,LKR
+SUP-020,Ecoware Disposables (Pvt) Ltd,Ecoware,Packaging,11 Main Street,Moratuwa,081 786 8548,accounts@ecoware.lk,113285481-7000,30 days,LKR
+SUP-021,Colombo Linen Services (Pvt) Ltd,Colombo Linen,Laundry & Linen,232 Negombo Road,Colombo 06,031 549 6413,accounts@colombolinen.lk,179488622-7000,30 days,LKR
+SUP-022,Hygiene First Chemicals (Pvt) Ltd,Hygiene First,Cleaning & Hygiene,159 Main Street,Homagama,034 561 3721,accounts@hygienefirst.lk,154886421-7000,30 days,LKR
+SUP-023,Sentinel Pest Control Services (Pvt) Ltd,Sentinel Pest Control,Pest Control,171 Negombo Road,Nugegoda,034 350 9090,accounts@sentinelpestco.lk,103565281-7000,30 days,LKR
+SUP-024,Coolzone Refrigeration Engineers (Pvt) Ltd,Coolzone,Equipment Maintenance,206 Old Moor Street,Rajagiriya,034 555 9532,accounts@coolzone.lk,112823093-7000,14 days,LKR
+SUP-025,Kitchenaid Technical Services (Pvt) Ltd,KTS Lanka,Equipment Maintenance,384 Old Moor Street,Kotte,047 628 1439,accounts@ktslanka.lk,179697462-7000,30 days,LKR
+SUP-026,Guardian Facility Management (Pvt) Ltd,Guardian FM,Facilities,290 Main Street,Colombo 05,081 375 1683,accounts@guardianfm.lk,186908026-7000,30 days,LKR
+SUP-027,Nexus Waste Management (Pvt) Ltd,Nexus Waste,Waste Management,212 Negombo Road,Kolonnawa,011 358 6670,accounts@nexuswaste.lk,174302868-7000,30 days,LKR
+SUP-028,Squarepoint POS Systems Pte Ltd,Squarepoint,Software & POS,355 Galle Road,Singapore,052 387 1133,accounts@squarepoint.lk,108804431-7000,Immediate,USD
+SUP-029,Rational Kitchen Equipment FZE,Rational FZE,Equipment Supply,352 Galle Road,Dubai,063 234 8551,accounts@rationalfze.lk,191296289-7000,60 days,USD
+SUP-030,Ceylinco Kitchen Equipment (Pvt) Ltd,Ceylinco Kitchen,Equipment Supply,194 Temple Road,Colombo 02,011 200 7062,accounts@ceylincokitche.lk,132449925-7000,45 days,LKR
+SUP-031,Bakers Choice Ingredients (Pvt) Ltd,Bakers Choice,Bakery Supplies,410 Temple Road,Kelaniya,052 287 3937,accounts@bakerschoice.lk,118602345-7000,30 days,LKR
+SUP-032,Tropicana Ice Company,Tropicana Ice,Ice Supply,207 Havelock Road,Colombo 15,081 303 5086,accounts@tropicanaice.lk,104789777-7000,7 days,LKR
+SUP-033,Vidul Print & Stationery (Pvt) Ltd,Vidul Print,Printing & Stationery,106 Station Road,Maharagama,031 617 4216,accounts@vidulprint.lk,186579985-7000,30 days,LKR
+SUP-034,Sunrise Bakery Products (Pvt) Ltd,Sunrise Bakery,Bakery Supplies,338 Temple Road,Panadura,052 737 4253,accounts@sunrisebakery.lk,140936742-7000,21 days,LKR
+SUP-035,Ceylon Cold Chain Logistics (Pvt) Ltd,Cold Chain Lanka,Logistics,42 Station Road,Orugodawatta,031 348 3822,accounts@coldchainlanka.lk,119105854-7000,30 days,LKR
+SUP-036,Ranmuthu Coconut Products (Pvt) Ltd,Ranmuthu Coconut,Dry Goods,339 Station Road,Kuliyapitiya,037 535 5204,accounts@ranmuthucoconu.lk,111213573-7000,30 days,LKR
+SUP-037,Sea Breeze Prawn Farms (Pvt) Ltd,Sea Breeze Prawns,Fish & Seafood,251 Negombo Road,Puttalam,052 495 1786,accounts@seabreezeprawn.lk,124876364-7000,14 days,LKR
+SUP-038,Golden Grain Flour Mills PLC,Golden Grain,Dry Goods,113 Negombo Road,Trincomalee,047 541 9822,accounts@goldengrain.lk,136959147-7000,45 days,LKR
+SUP-039,Vintage Cellars Lanka (Pvt) Ltd,Vintage Cellars,Beverages,233 Main Street,Colombo 03,065 674 4382,accounts@vintagecellars.lk,145407435-7000,30 days,LKR
+SUP-040,Everclean Laundry (Pvt) Ltd,Everclean,Laundry & Linen,20 Station Road,Dehiwala,065 496 2547,accounts@everclean.lk,148607035-7000,21 days,LKR
+SUP-041,Sithumina Hardware & Electricals,Sithumina Hardware,Hardware,343 Old Moor Street,Piliyandala,091 356 7984,accounts@sithuminahardw.lk,,Immediate,LKR
+SUP-042,Uniworld Staff Uniforms (Pvt) Ltd,Uniworld,Uniforms,268 Main Street,Ratmalana,052 684 1773,accounts@uniworld.lk,157796065-7000,30 days,LKR
+SUP-043,Digital Shield IT Solutions (Pvt) Ltd,Digital Shield,IT Services,290 Havelock Road,Colombo 04,031 404 1375,accounts@digitalshield.lk,182768686-7000,30 days,LKR
+SUP-044,Deepal Foods Limited,Deepal Foods,Packaging,314 Old Moor Street,Kadawatha,065 723 7397,accounts@deepalfoods.lk,181610967-7000,30 days,LKR
+SUP-045,Ridma Marketing,Ridma Marketing,Printing & Stationery,234 Station Road,Kalutara,065 460 7058,accounts@ridmamarketing.lk,179312188-7000,30 days,LKR
+SUP-046,Kelum Marketing (Pvt) Ltd,Kelum Marketing,Bakery Supplies,341 Galle Road,Gampaha,031 271 1739,accounts@kelummarketing.lk,102767350-7000,45 days,LKR
+SUP-047,Thilina Industries Limited,Thilina Industries,Logistics,94 Station Road,Galle,081 446 5078,accounts@thilinaindustr.lk,153789044-7000,14 days,LKR
+SUP-048,Wayamba Agencies,Wayamba Agencies,Vegetables,124 Kandy Road,Matale,047 434 6804,accounts@wayambaagencie.lk,101723185-7000,30 days,LKR
+SUP-049,Sunila Enterprises (Pvt) Ltd,Sunila Enterprises,Vegetables,88 Negombo Road,Kurunegala,091 717 1599,accounts@sunilaenterpri.lk,171398827-7000,30 days,LKR
+SUP-050,Sunila Marketing (Pvt) Ltd,Sunila Marketing,Logistics,242 New Bazaar Street,Kadawatha,034 658 8061,accounts@sunilamarketin.lk,176612317-7000,30 days,LKR
+SUP-051,Anuradha Traders,Anuradha Traders,Equipment Maintenance,44 Havelock Road,Galle,063 708 3816,accounts@anuradhatrader.lk,127769254-7000,30 days,LKR
+SUP-052,Deepal Distributors Limited,Deepal Distributors,Beverages,275 Temple Road,Galle,033 287 3426,accounts@deepaldistribu.lk,186812687-7000,30 days,LKR
+SUP-053,Ceylon Star Stores Limited,Ceylon Star,Hardware,192 New Bazaar Street,Kadawatha,037 429 1975,accounts@ceylonstar.lk,143835983-7000,14 days,LKR
+SUP-054,Deepal Marketing,Deepal Marketing,Dry Goods,33 New Bazaar Street,Panadura,041 449 4621,accounts@deepalmarketin.lk,109101456-7000,14 days,LKR
+SUP-055,Nimantha Foods,Nimantha Foods,Dairy,223 New Bazaar Street,Horana,041 644 1482,accounts@nimanthafoods.lk,110908158-7000,30 days,LKR
+SUP-056,Sabaragamu Distributors Limited,Sabaragamu Distributors,Beverages,82 Main Street,Colombo 11,041 201 5543,accounts@sabaragamudist.lk,185423034-7000,14 days,LKR
+SUP-057,Thilina Distributors,Thilina Distributors,Dry Goods,341 Station Road,Matale,041 635 8004,accounts@thilinadistrib.lk,108271767-7000,45 days,LKR
+SUP-058,Anuradha Marketing (Pvt) Ltd,Anuradha Marketing,Packaging,33 Temple Road,Kurunegala,041 623 8225,accounts@anuradhamarket.lk,198534562-7000,30 days,LKR
+SUP-059,Mihira Traders Limited,Mihira Traders,Bakery Supplies,276 Galle Road,Gampaha,047 502 2983,accounts@mihiratraders.lk,137634128-7000,30 days,LKR
+SUP-060,Mahaweli Stores (Pvt) Ltd,Mahaweli Stores,Uniforms,44 Old Moor Street,Avissawella,065 616 1090,accounts@mahawelistores.lk,178970793-7000,14 days,LKR
+SUP-061,Sarasavi Agencies (Pvt) Ltd,Sarasavi Agencies,Fish & Seafood,381 Main Street,Colombo 11,063 523 6238,accounts@sarasaviagenci.lk,170199736-7000,45 days,LKR
+SUP-062,Wayamba Industries,Wayamba Industries,Logistics,89 Temple Road,Panadura,033 650 1832,accounts@wayambaindustr.lk,177493956-7000,30 days,LKR
+SUP-063,Thilina Holdings,Thilina Holdings,Packaging,133 Temple Road,Beruwala,034 607 4740,accounts@thilinaholding.lk,117356200-7000,30 days,LKR
+SUP-064,Nilwala Stores (Pvt) Ltd,Nilwala Stores,Vegetables,133 Church Street,Minuwangoda,065 360 5039,accounts@nilwalastores.lk,116975861-7000,14 days,LKR
+SUP-065,Kelum Distributors Limited,Kelum Distributors,Cleaning & Hygiene,343 Negombo Road,Horana,037 736 5291,accounts@kelumdistribut.lk,184582487-7000,14 days,LKR
+SUP-066,Piyum Marketing Limited,Piyum Marketing,Spices,341 Station Road,Galle,041 746 4733,accounts@piyummarketing.lk,150358527-7000,14 days,LKR
+SUP-067,Thisara Agencies,Thisara Agencies,Spices,348 Old Moor Street,Panadura,041 488 8677,accounts@thisaraagencie.lk,153824000-7000,45 days,LKR
+SUP-068,Sandalu Agencies (Pvt) Ltd,Sandalu Agencies,Fish & Seafood,379 Galle Road,Galle,041 582 6281,accounts@sandaluagencie.lk,167990539-7000,45 days,LKR
+SUP-069,Rajarata Distributors (Pvt) Ltd,Rajarata Distributors,Dairy,441 Temple Road,Avissawella,037 541 2257,accounts@rajaratadistri.lk,183860629-7000,45 days,LKR
+SUP-070,Mihira Distributors,Mihira Distributors,Bakery Supplies,370 Havelock Road,Colombo 11,052 205 6170,accounts@mihiradistribu.lk,154138042-7000,45 days,LKR
+SUP-071,Rajarata Supplies,Rajarata Supplies,Spices,359 Galle Road,Kadawatha,034 558 7863,accounts@rajaratasuppli.lk,174611754-7000,30 days,LKR
+SUP-072,Sabaragamu Foods,Sabaragamu Foods,Fish & Seafood,312 Negombo Road,Panadura,011 243 1503,accounts@sabaragamufood.lk,110783203-7000,45 days,LKR
+SUP-073,Anuradha Supplies,Anuradha Supplies,Hardware,320 Main Street,Colombo 10,031 235 5170,accounts@anuradhasuppli.lk,,14 days,LKR
+SUP-074,Thilina Stores,Thilina Stores,Hardware,377 Negombo Road,Ja-Ela,031 782 4690,accounts@thilinastores.lk,,14 days,LKR
+SUP-075,Ridma Traders Limited,Ridma Traders,Spices,25 New Bazaar Street,Kandy,065 313 9318,accounts@ridmatraders.lk,162588811-7000,30 days,LKR
+SUP-076,Oshadi Holdings (Pvt) Ltd,Oshadi Holdings,Dairy,11 Havelock Road,Kurunegala,041 721 7008,accounts@oshadiholdings.lk,164501628-7000,45 days,LKR
+SUP-077,Nethmi Marketing,Nethmi Marketing,Fish & Seafood,157 Kandy Road,Ja-Ela,041 372 1198,accounts@nethmimarketin.lk,156401842-7000,45 days,LKR
+SUP-078,Rajarata Marketing Limited,Rajarata Marketing,Dry Goods,80 Kandy Road,Kadawatha,052 585 1740,accounts@rajaratamarket.lk,180148511-7000,14 days,LKR
+SUP-079,Thisara Industries,Thisara Industries,Logistics,329 Temple Road,Colombo 10,063 333 6687,accounts@thisaraindustr.lk,144544144-7000,14 days,LKR
+SUP-080,Kelum Traders Limited,Kelum Traders,Hardware,208 Old Moor Street,Kadawatha,011 245 4144,accounts@kelumtraders.lk,155182377-7000,30 days,LKR
+SUP-081,Ridma Stores (Pvt) Ltd,Ridma Stores,Hardware,178 Kandy Road,Colombo 11,011 278 5661,accounts@ridmastores.lk,,14 days,LKR
+SUP-082,Sabaragamu Supplies Limited,Sabaragamu Supplies,Fish & Seafood,238 Church Street,Kandy,065 480 8330,accounts@sabaragamusupp.lk,132357244-7000,30 days,LKR
+SUP-083,Rajarata Enterprises (Pvt) Ltd,Rajarata Enterprises,Hardware,185 Old Moor Street,Kalutara,047 652 3605,accounts@rajarataenterp.lk,,30 days,LKR
+SUP-084,Wayamba Foods Limited,Wayamba Foods,Vegetables,39 Havelock Road,Kadawatha,065 293 5548,accounts@wayambafoods.lk,199546954-7000,14 days,LKR
+SUP-085,Wayamba Stores Limited,Wayamba Stores,Hardware,44 Temple Road,Kadawatha,047 589 8686,accounts@wayambastores.lk,,45 days,LKR
+SUP-086,Anuradha Stores,Anuradha Stores,Packaging,174 Station Road,Kandy,091 257 5158,accounts@anuradhastores.lk,131975383-7000,14 days,LKR
+SUP-087,Nethmi Traders Limited,Nethmi Traders,Logistics,13 Old Moor Street,Kalutara,041 763 3033,accounts@nethmitraders.lk,140914266-7000,30 days,LKR
+SUP-088,Oshadi Holdings,Oshadi Holdings,Fish & Seafood,212 Temple Road,Matale,047 691 3540,accounts@oshadiholdings.lk,127496556-7000,14 days,LKR
+SUP-089,Rajarata Holdings (Pvt) Ltd,Rajarata Holdings,Equipment Maintenance,387 Kandy Road,Wattala,081 581 1931,accounts@rajarataholdin.lk,186327529-7000,14 days,LKR
+SUP-090,Thilina Supplies,Thilina Supplies,Spices,168 Kandy Road,Kalutara,034 346 5163,accounts@thilinasupplie.lk,175455733-7000,30 days,LKR
