@@ -226,3 +226,7 @@ backend/uploads/*
 backend/exports/*
 .venv
 .env
+data/invoices/uploaded/
+backend/*.json
+node_modules/
+frontend/dist/
