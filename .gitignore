@@ -156,7 +156,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+data/
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -226,7 +226,6 @@ backend/uploads/*
 backend/exports/*
 .venv
 .env
-data/invoices/uploaded/
 backend/*.json
 node_modules/
 frontend/dist/
