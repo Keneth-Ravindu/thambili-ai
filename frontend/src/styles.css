@@ -447,6 +447,16 @@ textarea {
   background: color-mix(in srgb, var(--good) 85%, #000);
 }
 
+.btn--reject {
+  color: #fff;
+  background: var(--critical);
+  border-color: transparent;
+}
+
+.btn--reject:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--critical) 85%, #000);
+}
+
 .btn--ghost {
   background: transparent;
   border-color: transparent;

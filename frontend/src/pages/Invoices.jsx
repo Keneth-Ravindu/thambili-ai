@@ -12,6 +12,7 @@ const STATUS_DOT = {
   ready: 'var(--good)',
   needs_review: 'var(--warning)',
   high_risk: 'var(--critical)',
+  rejected: 'var(--critical)',
   approved: 'var(--accent)',
 }
 
@@ -25,7 +26,7 @@ const COLUMNS = [
   { key: 'flags', label: 'Flags', sortable: false },
 ]
 
-const STATUS_RANK = { high_risk: 0, needs_review: 1, ready: 2, approved: 3, processing: 4 }
+const STATUS_RANK = { high_risk: 0, needs_review: 1, ready: 2, rejected: 3, approved: 4, processing: 5 }
 
 export default function Invoices() {
   const navigate = useNavigate()

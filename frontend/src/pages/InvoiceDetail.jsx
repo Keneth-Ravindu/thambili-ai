@@ -16,7 +16,7 @@ import {
   StatusBadge,
 } from '../components/Primitives.jsx'
 import { useToast } from '../components/Toasts.jsx'
-import { approveInvoice, fetchInvoicePdfUrl, getInvoice, updateInvoice } from '../lib/api.js'
+import { approveInvoice, fetchInvoicePdfUrl, getInvoice, rejectInvoice, updateInvoice } from '../lib/api.js'
 import { formatAmount, formatDateTime, pluralise } from '../lib/format.js'
 import { reconcile, statusMeta } from '../lib/status.js'
 import { useInvoices } from '../store/invoices.jsx'
@@ -115,6 +115,11 @@ export default function InvoiceDetail() {
   }, [id])
 
   const locked = invoice?.status === 'approved'
+  const shouldReject = Boolean(
+    invoice &&
+      invoice.status === 'high_risk' &&
+      (invoice.duplicate_existing || invoice.duplicate_batch),
+  )
 
   const dirtyKeys = useMemo(() => {
     if (!invoice) return []
@@ -172,20 +177,23 @@ export default function InvoiceDetail() {
   const approve = async () => {
     setApproving(true)
     try {
-      const response = await approveInvoice(id)
+      const response = shouldReject ? await rejectInvoice(id) : await approveInvoice(id)
       const merged = {
         ...invoice,
         status: response.status,
-        approved_by: response.approved_by ?? invoice.approved_by,
-        approved_at: response.approved_at ?? invoice.approved_at,
+        approved_by: shouldReject ? null : response.approved_by ?? invoice.approved_by,
+        approved_at: shouldReject ? null : response.approved_at ?? invoice.approved_at,
       }
       setInvoice(merged)
       setForm(buildForm(merged))
       setConfirmOpen(false)
       await refresh()
-      toast.success('Invoice approved', 'It is now locked from further edits.')
+      toast.success(
+        shouldReject ? 'Invoice rejected' : 'Invoice approved',
+        shouldReject ? 'It has been excluded from the approval flow.' : 'It is now locked from further edits.',
+      )
     } catch (caught) {
-      toast.error('Could not approve', caught.message)
+      toast.error(shouldReject ? 'Could not reject' : 'Could not approve', caught.message)
     } finally {
       setApproving(false)
     }
@@ -445,13 +453,13 @@ export default function InvoiceDetail() {
                 </button>
                 <button
                   type="button"
-                  className="btn btn--approve"
+                  className={`btn ${shouldReject ? 'btn--reject' : 'btn--approve'}`}
                   onClick={() => setConfirmOpen(true)}
                   disabled={saving || dirtyKeys.length > 0}
-                  title={dirtyKeys.length > 0 ? 'Save your edits before approving' : undefined}
+                  title={dirtyKeys.length > 0 ? `Save your edits before ${shouldReject ? 'rejecting' : 'approving'}` : undefined}
                 >
-                  <Icon name="check" size={15} />
-                  Approve
+                  <Icon name={shouldReject ? 'x' : 'check'} size={15} />
+                  {shouldReject ? 'Reject' : 'Approve'}
                 </button>
               </div>
             )}
@@ -462,15 +470,17 @@ export default function InvoiceDetail() {
       <ConfirmDialog
         open={confirmOpen}
         busy={approving}
-        title="Approve this invoice?"
-        confirmLabel="Approve"
-        confirmVariant="btn--approve"
+        title={shouldReject ? 'Reject this invoice?' : 'Approve this invoice?'}
+        confirmLabel={shouldReject ? 'Reject' : 'Approve'}
+        confirmVariant={shouldReject ? 'btn--reject' : 'btn--approve'}
         body={
           <>
             <p>
               {invoice.invoice_number || 'This invoice'} from {invoice.supplier_name || 'an unidentified supplier'} for{' '}
-              <b>{formatAmount(invoice.gross_amount, invoice.currency)}</b> will be marked approved and locked from
-              further edits.
+              <b>{formatAmount(invoice.gross_amount, invoice.currency)}</b>{' '}
+              {shouldReject
+                ? 'will be rejected and kept out of approval flow.'
+                : 'will be marked approved and locked from further edits.'}
             </p>
             {issues.length > 0 ? (
               <p style={{ marginTop: 10, color: 'var(--critical-ink)' }}>

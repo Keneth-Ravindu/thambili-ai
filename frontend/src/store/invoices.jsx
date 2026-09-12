@@ -51,13 +51,14 @@ export function useInvoices() {
 
 /** Rolls the invoice list up into the numbers the dashboard leads with. */
 export function summarise(invoices) {
-  const counts = { ready: 0, needs_review: 0, high_risk: 0, approved: 0, processing: 0 }
+  const counts = { ready: 0, needs_review: 0, high_risk: 0, rejected: 0, approved: 0, processing: 0 }
   const suppliers = new Map()
 
   let totalValue = 0
   let atRiskValue = 0
   let approvedValue = 0
   let duplicates = 0
+  let rejected = 0
   let unverified = 0
   let unreconciled = 0
   let openIssues = 0
@@ -70,6 +71,7 @@ export function summarise(invoices) {
     totalValue += amount
     if (invoice.status === 'high_risk') atRiskValue += amount
     if (invoice.status === 'approved') approvedValue += amount
+    if (invoice.status === 'rejected') rejected += 1
 
     if (invoice.duplicate_existing || invoice.duplicate_batch) duplicates += 1
     if (!invoice.supplier_verified) unverified += 1
@@ -93,6 +95,7 @@ export function summarise(invoices) {
     atRiskValue,
     approvedValue,
     duplicates,
+    rejected,
     unverified,
     unreconciled,
     openIssues,

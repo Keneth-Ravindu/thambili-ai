@@ -1233,6 +1233,13 @@ def approve_invoice(
                 invoice.status,
         }
 
+    if invoice.status == "rejected":
+
+        raise HTTPException(
+            status_code=400,
+            detail="Rejected invoices cannot be approved",
+        )
+
     invoice.status = "approved"
 
     invoice.approved_by = "Nimali"
@@ -1263,4 +1270,65 @@ def approve_invoice(
 
         "approved_at":
             invoice.approved_at,
+    }
+
+
+# =========================================================
+# REJECT INVOICE
+# =========================================================
+
+@router.post("/{invoice_id}/reject")
+def reject_invoice(
+    invoice_id: int,
+    db: Session = Depends(get_db),
+):
+
+    invoice = (
+        db.query(Invoice)
+        .filter(
+            Invoice.id
+            == invoice_id
+        )
+        .first()
+    )
+
+    if not invoice:
+
+        raise HTTPException(
+            status_code=404,
+            detail="Invoice not found",
+        )
+
+    if invoice.status == "rejected":
+
+        return {
+            "success": True,
+            "message":
+                "Invoice is already rejected",
+            "invoice_id":
+                invoice.id,
+            "status":
+                invoice.status,
+        }
+
+    if invoice.status == "approved":
+
+        raise HTTPException(
+            status_code=400,
+            detail="Approved invoices cannot be rejected",
+        )
+
+    invoice.status = "rejected"
+    invoice.approved_by = None
+    invoice.approved_at = None
+
+    db.commit()
+
+    db.refresh(invoice)
+
+    return {
+        "success": True,
+        "message": "Invoice rejected successfully",
+        "invoice_id": invoice.id,
+        "status": invoice.status,
     }

@@ -130,6 +130,12 @@ export default function Dashboard() {
                   hint="Matched against finance records or another upload"
                 />
                 <CheckRow
+                  icon="x"
+                  label="Rejected invoices"
+                  count={stats.rejected}
+                  hint="Removed from the approval path and excluded from payment"
+                />
+                <CheckRow
                   icon="shield"
                   label="Unverified suppliers"
                   count={stats.unverified}

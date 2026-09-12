@@ -14,6 +14,7 @@ const STATUS_FILL = {
   ready: 'var(--good)',
   needs_review: 'var(--warning)',
   high_risk: 'var(--critical)',
+  rejected: 'var(--critical)',
   approved: 'var(--accent)',
   processing: 'var(--axis)',
 }
