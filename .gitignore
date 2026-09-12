@@ -148,7 +148,6 @@ activemq-data/
 *.sage.py
 
 # Environments
-.env
 .envrc
 .venv
 env/
@@ -156,7 +155,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+data/
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -218,15 +217,13 @@ __marimo__/
 .streamlit/secrets.toml
 
 venv/
-.env
 __pycache__/
 *.pyc
 *.db
 backend/uploads/*
 backend/exports/*
 .venv
-.env
-data/invoices/uploaded/
 backend/*.json
 node_modules/
 frontend/dist/
+config.bat
